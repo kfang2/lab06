@@ -1,29 +1,26 @@
+
 .menu ul{
+	padding-top: 20px;
 	list-style-type: none;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
 
 }
 
 .menu li{
-	border: none;
-	border-width: 1px;
-	background-color: white;
+	
+	padding:10px;
+	text-align:center;
+	background-color:#CCD1D1;
+
 }
 
 .menu a{
 	color: black;
 	padding: 15px;
+	font-family:Andale Mono, monospace;
+	font-style: sans-serif;
 }
 
-.menu a.is-current{
-	background-color: #00E89D;
-	color: black;
-}
-
-
-@media (max-width: 600px) {
-	nav.menu ul, nav.menu li { display: block } 
-
+.menu a:hover{
+	
+	font-size: 20px;
 }
